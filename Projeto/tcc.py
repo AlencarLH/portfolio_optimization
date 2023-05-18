@@ -14,7 +14,7 @@ from pypfopt import risk_models
 
 #especificando os parametros utilizados para a chamada do arquivo de pre-processamento
 def load_data():
-    year_date = ['2018']
+    year_date = ['2018'] 
     path=f'/home/luis/Documents/b3/'
     name_file='2018'
     type_file ='TXT'

@@ -57,7 +57,7 @@ def concat_files(path, name_file, year_date, type_file, final_file):
         df = parse_values(df)
          
         if i==0:
-            df_final = df
+            df_final = df 
         else:
             df_final = pd.concat([df_final, df])
     
